@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  #header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  p {
+    margin: 5px 0;
+  }
+  #ladoalado {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Altera a direção flexível para coluna */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal (horizontalmente) */
+  }
+  #ladoalado img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Adicionando transição para suavizar o hover */
+  }
+  #ladoalado img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse sobre ela */
+  }
+  
